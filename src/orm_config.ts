@@ -13,7 +13,7 @@ export const config :PostgresConnectionOptions ={
     migrationsTableName: "migrations",
     migrations: [__dirname + '/migrations/*.{js,ts}'],
     
-    synchronize: false,
+    // synchronize: false,
     logging: true
 }
 
